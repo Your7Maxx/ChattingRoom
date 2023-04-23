@@ -101,7 +101,7 @@ struct message
 	char message_content[MAXDATASIZE]; //消息的具体内容
 	int userid_src; //消息的发送者id
 	int userid_dst; //消息的接收者id
-	char message_username[20];//消息的发送者姓名（！!待议！!）
+	char message_username[20];//消息的发送者姓名
 	char message_filename[20];
 };
 
