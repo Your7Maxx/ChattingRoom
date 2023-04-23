@@ -72,7 +72,6 @@ int start_on(){
 	struct user user;
 	memset((struct user*)&user, '\0', sizeof(struct user));
 	//创建用户列表文件
-	//printf("1");
 	userList_fd=open("./userList.txt",O_RDWR|O_CREAT);
 	if(userList_fd==-1){
 	//	printf("2");
